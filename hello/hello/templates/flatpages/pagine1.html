@@ -1,0 +1,15 @@
+
+{% extends 'flatpages/default.html' %}
+
+{% block title %}
+{{ flatpage.title }}
+{% endblock title %}
+
+{% block content %}
+    <h2>{{ flatpage.title }}</h2>
+    <hr>
+    <H3>{{ flatpage.content }}</H3>
+    <H3>{{ flatpage.content }}</H3>
+    <H3>и еще раз {{ flatpage.content }}</H3>
+    В.И. Ленин
+{% endblock content %}
